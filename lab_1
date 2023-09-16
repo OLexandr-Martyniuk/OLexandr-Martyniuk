@@ -1,1 +1,6 @@
+from datetime import datetime
+name = "Oleksandr"
+location = "Lviv"
+
+print(f"{Olexandr} start programming at {datetime.now()}. {Lviv} is the best city!")
 
