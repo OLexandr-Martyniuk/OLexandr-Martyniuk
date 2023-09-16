@@ -1,6 +1,5 @@
 from datetime import datetime
-name = "Oleksandr"
+name = "Olexandr"
 location = "Lviv"
 
-print(f"{Olexandr} start programming at {datetime.now()}. {Lviv} is the best city!")
-
+print(f"{name} start programming at {datetime.now()}. {location} is the best city!")
