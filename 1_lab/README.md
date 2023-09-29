@@ -30,7 +30,7 @@ print(f"{name} start programming at {datetime.now()}. {location} is the best cit
 ```text
 << Olexandr start programming at 2023-09-16 20:06:03.793422. Lviv is the best city >>
 ```
-![Image alt](https://github.com/OLexandr-Martyniuk/m_1/blob/main/2.png)
+![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/blob/main/1_lab/2.png)
 
    6. Створив файл my_first_app.md, написав код програми, запустив програму;
 ```python
@@ -44,8 +44,8 @@ print(f"{name} створив першу свою програму {datetime.now
 ```text
 << Олександр створив першу свою програму 2023-09-19 15:20:34.540359 у місті Львів>>
 ```
-![Image alt](https://github.com/OLexandr-Martyniuk/m_1/blob/main/3.png)
-![Image alt](https://github.com/OLexandr-Martyniuk/m_1/blob/main/4.png)
+![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/blob/main/1_lab/3.png)
+![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/blob/main/1_lab/4.png)
 ### Висновок: 
 > У цій роботі я навчився завантажувати роботи у репозиторій.
 
