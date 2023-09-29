@@ -4,8 +4,9 @@
 ---
 ### Виконання роботи
     Створив у Python файл і, застосовуючи команду print, виконав коди.
-    1. Познайомився з основними типами даних
-```a = "Перемога"
+    1. Познайомився з основними типами даних:
+```python
+a = "Перемога"
 b = 1 # числова змінна
 c = ["a", 1, 1.25, "Перемога"] # List
 d = {"a": "Перемога", "b": 1} # Dict
@@ -31,34 +32,50 @@ print (f)
 ```
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/blob/main/1_lab/1.png)
 
-    4. Створив файл my_first_app.ipynb та скопіював в нього код програми, запустив програму;
+    2. Вивів вбудовані константи:
 ```python
-from datetime import datetime
-name = "Olexandr"
-location = "Lviv"
+def print_some(value=None):
+    value = value or 'some'  # Якщо значення не передано, використовуємо some.
+    print(value)
 
-print(f"{name} start programming at {datetime.now()}. {location} is the best city!")
+print_some() # some
 ```
-    5. Програма вивела:
+    Програма вивела:
 ```text
-<< Olexandr start programming at 2023-09-16 20:06:03.793422. Lviv is the best city >>
+<< some >>
 ```
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/blob/main/1_lab/2.png)
 
-   6. Створив файл my_first_app.md, написав код програми, запустив програму;
 ```python
-from datetime import datetime
-name = "Олександр"
-location = "Львів"
+def is_it_true(anything):
+ if anything:
+   print("yes, it's true")
+ else:
+   print("no, it's false")
 
-print(f"{name} створив першу свою програму {datetime.now()} у місті {location}")
+print (is_it_true(None))
+print (is_it_true(not None))
 ```
- 7. Програма вивела:
+    Програма вивела:
 ```text
-<< Олександр створив першу свою програму 2023-09-19 15:20:34.540359 у місті Львів>>
+<< no, it's false
+None
+yes, it's true     
+None >>
 ```
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/blob/main/1_lab/3.png)
+
+   3. Вивів результат роботи вбудованих функцій:
+   - abs(x) - повертає абсолютне значення числа
+  ```python
+print(abs(-5), f"є рівним {abs(5)}")
+```
+   Програма вивела:
+```text
+<< 5 є рівним 5>>
+```
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/blob/main/1_lab/4.png)
+
 ### Висновок: 
 > У цій роботі я навчився завантажувати роботи у репозиторій.
 
