@@ -16,7 +16,7 @@ print(f"{name} start programming at {datetime.now()}. {location} is the best cit
 ```text
 << Olexandr start programming at 2023-09-16 20:01:30.263885. Lviv is the best city! >>
 ```
-![Image alt](https://github.com/OLexandr-Martyniuk/m_1/blob/main/1.png)
+![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/blob/main/1_lab/1.png)
 
     4. Створив файл my_first_app.ipynb та скопіював в нього код програми, запустив програму;
 ```python
