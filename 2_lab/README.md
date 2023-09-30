@@ -88,12 +88,12 @@ print(bin(3))
 
  - enumerate - повертає об’єкт перерахування
   ```python
-seasons = ['Spring', 'Summer', 'Fall', 'Winter']
+seasons = ['Весна', 'Літо', 'Осінь', 'Зима']
 print (list(enumerate(seasons, start=1)))
 ```
    Програма вивела:
 ```text
-<< [(1, 'Spring'), (2, 'Summer'), (3, 'Fall'), (4, 'Winter')] >>
+<< [(1, 'Весна'), (2, 'Літо'), (3, 'Осінь'), (4, 'Зима')] >>
 ```
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/2_lab/screenshots/6.png)
 
@@ -149,21 +149,21 @@ else:
  ```python
 s = 1
 while True:
-    print(s,'lesson has already passed')
+    print(s,'урок закінчився')
     s = s + 1
     if s>6:
          break
-print('End of lessons')
+print('Кінець уроків')
 ```
    Програма вивела:
 ```text
-<< 1 lesson has already passed
-2 lesson has already passed
-3 lesson has already passed
-4 lesson has already passed
-5 lesson has already passed
-6 lesson has already passed
-End of lessons>>
+<< 1 урок закінчився
+2 урок закінчився
+3 урок закінчився
+4 урок закінчився
+5 урок закінчився
+6 урок закінчився
+Кінець уроків>>
 ```
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/2_lab/screenshots/10.png)
 
