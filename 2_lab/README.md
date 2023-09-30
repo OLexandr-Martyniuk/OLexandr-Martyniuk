@@ -136,13 +136,13 @@ while i < 10:
  ```python
 age = 17
 if age > 18:
-   print('You are an adult')
+   print('Ти повнолітній')
 else:
-   print('You are not an adult')
+   print('ти не повнолітній')
 ```
    Програма вивела:
 ```text
-<< You are not an adult>>
+<< Ти не повнолітній>>
 ```
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/2_lab/screenshots/9.png)
 
