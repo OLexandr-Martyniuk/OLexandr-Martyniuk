@@ -1,4 +1,4 @@
-# Звіт до роботи
+![image](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/assets/144240022/61376ab7-0abc-4b8c-bb7b-b6cbbe3aa390)# Звіт до роботи
 ## Тема: _Основи програмування на Python. Основні конструкції в Python_
 ### Мета роботи: _Навчитися користуватися основними конструкціями в Python_
 ---
@@ -97,7 +97,7 @@ print (list(enumerate(seasons, start=1)))
 ```
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/2_lab/screenshots/6.png)
 
- 4.  Напиcав коди, які демонструють роботу циклів:
+   4.  Напиcав коди, які демонструють роботу циклів:
  ```python
 programming_languages = ["Python", "JavaScript", "Java", "C++"]
 for language in programming_languages:
@@ -132,7 +132,7 @@ while i < 10:
 ```
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/2_lab/screenshots/8.png)
 
- 5.  Напиcав коди, які демонструють роботу розгалуження:
+   5.  Напиcав коди, які демонструють роботу розгалуження:
  ```python
 age = 17
 if age > 18:
@@ -167,7 +167,7 @@ print('Кінець уроків')
 ```
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/2_lab/screenshots/10.png)
 
- 6.  Конструкція try->except->finally. Код з помилкою:
+   6.  Конструкція try->except->finally. Код з помилкою:
  ```python
 my_dict = {"a":1, "b":2, "c":3}
  
@@ -185,7 +185,7 @@ finally:
 ```
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/2_lab/screenshots/11.png)
 
- 7.  Написав код контекст-мeнеджером with:
+   7.  Написав код контекст-мeнеджером with:
  ```python
 with open("file.txt", "r") as file:
     content = file.read()
@@ -193,7 +193,7 @@ with open("file.txt", "r") as file:
 ```
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/2_lab/screenshots/12.png)
   
- 8.  Написав код з lambdas:
+   8.  Написав код з lambdas:
  ```python
 full_name = lambda first, last: f'Мене звати {first.title()} {last.title()}'
 print(full_name ('Олександр', 'Мартинюк'))
@@ -203,6 +203,22 @@ print(full_name ('Олександр', 'Мартинюк'))
 <<Мене звати Олександр Мартинюк>>
 ```
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/2_lab/screenshots/13.png)
+
+   9.  Приклади Python коду від ChatGPT:
+   - вбудовані функції:
+  ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/2_lab/screenshots/14.png)
+
+   - код, який демонструє роботу циклів:
+![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/2_lab/screenshots/15.png)
+
+   - код, який демонструє роботу розгалужень:
+![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/2_lab/screenshots/16.png)
+
+   - код з конструкцією try->except->finally:
+![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/2_lab/screenshots/17.png)
+
+   - код з lambdas:
+![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/2_lab/screenshots/18.png)
 
 ### Висновок: 
 > У цій роботі я навчився користуватися основними конструкціями в Python.
