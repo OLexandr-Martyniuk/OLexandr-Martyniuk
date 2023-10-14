@@ -1,4 +1,4 @@
-![image](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/assets/144240022/61376ab7-0abc-4b8c-bb7b-b6cbbe3aa390)# Звіт до роботи
+# Звіт до роботи
 ## Тема: _Основи програмування на Python. Основні конструкції в Python_
 ### Мета роботи: _Навчитися користуватися основними конструкціями в Python_
 ---
