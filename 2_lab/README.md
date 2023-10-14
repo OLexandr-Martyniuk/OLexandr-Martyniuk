@@ -206,23 +206,23 @@ print(full_name ('Олександр', 'Мартинюк'))
 
    9.  Приклади Python коду від ChatGPT:
    - вбудовані функції:
-   - 
+
   ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/2_lab/screenshots/14.png)
 
    - код, який демонструє роботу циклів:
-   - 
+    
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/2_lab/screenshots/15.png)
 
    - код, який демонструє роботу розгалужень:
-   - 
+    
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/2_lab/screenshots/16.png)
 
    - код з конструкцією try->except->finally:
-   - 
+    
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/2_lab/screenshots/17.png)
 
    - код з lambdas:
-   - 
+    
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/2_lab/screenshots/18.png)
 
 ### Висновок: 
