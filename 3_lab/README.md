@@ -3,7 +3,7 @@
 ### Мета роботи: _Навчитися створювати перший class_
 ---
 ### Виконання роботи
-    1. Створив два python файли: lab_3.ipynb та lab_3.py
+    1. Створив два python файли: lab_3.ipynb та lab_3.py.
     2. Скопіював Python код у ці файли і виконав їх, натиснувши Run Python File:
 ```python
 class MyName:
@@ -98,7 +98,7 @@ We are done. We create 4 names! ??? Why 4? >>
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/3_lab/screenshots/1.png)
 
     3. Ознайомився з кодом, розібрався, за що відповідає кожен з рядків.
-    4. Модифікував програму, додавши своє ім’я в список
+    4. Модифікував програму, додавши своє ім’я в список:
 ```python
 class MyName:
     """Опис класу / Документація
@@ -200,16 +200,19 @@ We are done. We create 5 names! ??? Why 5? >>
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/3_lab/screenshots/2.png)
 
    5. Відповіді на запитання:
-   1. Чому, коли передаємо значення None, створюється об`єкт з іменем Anonymous?
+      
+   A. Чому, коли передаємо значення None, створюється об`єкт з іменем Anonymous?
    Коли передаємо значення None, створюється об`єкт з іменем Anonymous вiдповідно до коду:
    self.name = name if name is not None else self.anonymous_user().name #Class attributes / Instance variables
 
-   2. Як змінити текст привітання при виклику методу say_hello()? Допишіть цю частину коду.
+   B. Як змінити текст привітання при виклику методу say_hello()? Допишіть цю частину коду.
+   
    ```python
 This is static {type(MyName.say_hello)} with my prompt: {me.say_hello("Привіт!")}
 ```
 
-   3. Допишіть функцію в класі, яка порахує кількість букв в імені.
+   C. Допишіть функцію в класі, яка порахує кількість букв в імені.
+   
    ```python
     def name_length(self):
         return len(self.name)
@@ -263,8 +266,9 @@ We are done. We create 5 names! ??? Why 5? >>
 ```
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/3_lab/screenshots/3.png)
  
-   4. Порахуйте кількість імен у списку names та порівняйте із виведеним результатом. Дайте відповідь чому маємо різну кількість імен?
-У виведеному результаті кількість імен більша, тому що у списку присутній user None. В конструкторі класу, якщо name is None, метод anonymous_user() створює ще один об’єкт.
+   D. Порахуйте кількість імен у списку names та порівняйте із виведеним результатом. Дайте відповідь, чому маємо різну кількість імен?
+   У виведеному результаті кількість імен більша, тому що у списку присутній user None. 
+   У конструкторі класу, якщо name is None, метод anonymous_user() створює ще один об’єкт.
    
 ### Висновок: 
 > У цій роботі я навчився створювати перший class, працювати з кодом.
