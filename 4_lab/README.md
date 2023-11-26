@@ -42,9 +42,15 @@ pip install requests
 deactivate
 pip show requests
 ```
-   Остання команда вивела:
-![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/5.png)
+    Остання команда вивела:
+   ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/5.png)
     
+
+
+
+
+
+
     
 ```python
 class MyName:
