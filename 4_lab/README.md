@@ -22,11 +22,17 @@ python #Зайдіть в пайтон інтерпретатор
 >>> r.status_code
 >>> exit()
 ```
+![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/2.png)
 
-
-
-
-
+    3. Виконав такі команди:
+```text
+pip show requests
+pip install requests==2.1
+pip show requests
+pip uninstall requests
+```
+    Остання команда вивела:
+![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/4.png)
 
 
     
