@@ -3,15 +3,15 @@
 ### Мета роботи: _Навчитися працювати у віртуальному середовищі_
 ---
 ### Виконання роботи
-    1. Перевірив і переконався, що PIP (Python Install Package) встановлений на моєму комп'ютері.
+    1. Перевірив і переконався, що PIP (Python Install Package) встановлений на моєму комп'ютері:
 ```text
 pip -V
 ```
-  Після успішного виконання команди виконав
+  Після успішного виконання команди виконав:
 ```text
 pip -heip
 ```
-
+![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/1.png)
 
   
     2. Скопіював Python код у ці файли і виконав їх, натиснувши Run Python File:
