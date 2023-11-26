@@ -12,9 +12,24 @@ pip -V
 pip -heip
 ```
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/1.png)
+ 
+    2. Встановив бібліотеку requests:
+```text
+pip install requests 
+python #Зайдіть в пайтон інтерпретатор
+>>> import requests
+>>> r = requests.get('https://google.com')
+>>> r.status_code
+>>> exit()
+```
 
-  
-    2. Скопіював Python код у ці файли і виконав їх, натиснувши Run Python File:
+
+
+
+
+
+
+    
 ```python
 class MyName:
     """Опис класу / Документація
