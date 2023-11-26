@@ -31,10 +31,20 @@ pip install requests==2.1
 pip show requests
 pip uninstall requests
 ```
-    Остання команда вивела:
-![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/4.png)
+    Результат виконання команд:
+![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/3.png)
 
-
+    4. Для створення VENV та його активації виконав команди:
+```text
+python -m venv ./my_env
+source my_env/Scripts/activate
+pip install requests
+deactivate
+pip show requests
+```
+   Остання команда вивела:
+![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/5.png)
+    
     
 ```python
 class MyName:
