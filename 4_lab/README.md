@@ -55,6 +55,7 @@ pipenv –help
 ```
      За допомогою pipenv можна виконати такі команди:
 [Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/7.png)
+    
      7. Для створення нового середовища та інсталяції бібліотек виконав такі команди:
 ```text
 pipenv --python 3.10
