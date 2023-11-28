@@ -6,7 +6,7 @@
     1. За допомогою команди pip -V перевірив і переконався, що PIP (Python Install Package) встановлений на моєму комп'ютері.
     Після успішного виконання команди виконав:
 ```text
-pip -heip
+pip -help
 ```
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/1.png)
  
@@ -41,12 +41,40 @@ pip show requests
 ```
     Остання команда вивела:
    ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/5.png)
-    
 
+    5. Для інсталяції Pipenv (інструмента для спрощення інсталяції сторонніх бібліотек та створення віруального середовища для кожного проєкту) 
+    застосував команду:
+```text
+pip install pipenv
+```
+![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/6.png)
 
+     6. Після успішного виконання команди виконав
+```text
+pipenv –help
+```
+     За допомогою pipenv можна виконати такі команди:
+[Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/7.png)
+     7. Для створення нового середовища та інсталяції бібліотек виконав такі команди:
+```text
+pipenv --python 3.10
+```
+[Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/8.png)
 
+```text
+pipenv –venv
+```
+[Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/9.png)
 
+```text
+pipenv run python –V
+```
+[Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/10.png)
 
+```text
+pipenv run python –V
+```
+[Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/11.png)
 
 
 
@@ -63,12 +91,12 @@ pip show requests
 << Let's Start!
 We are done. We create 4 names! ??? Why 4? >>
 ```
-![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/3_lab/screenshots/1.png)
+
 
     3. Ознайомився з кодом, розібрався, за що відповідає кожен з рядків.
     4. Модифікував програму, додавши своє ім’я в список:
 
-![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/3_lab/screenshots/2.png)
+
 
    5. Відповіді на запитання:
       
@@ -96,7 +124,7 @@ The number of letters in the name: {me.name_length()}
 
 We are done. We create 5 names! ??? Why 5? >>
 ```
-![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/3_lab/screenshots/3.png)
+
  
    D. Порахуйте кількість імен у списку names та порівняйте із виведеним результатом. Дайте відповідь, чому маємо різну кількість імен?
    У виведеному результаті кількість імен більша, тому що у списку присутній user None. 
