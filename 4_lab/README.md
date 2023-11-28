@@ -128,6 +128,7 @@ f.close()
    Програма вивела:
    
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/21.png)
+
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/KEky.png)
 
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/Hh5v.png)
@@ -136,49 +137,25 @@ f.close()
 
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/Y3kQ.png)
    
-   Програма вивела:
-```text
-<< Let's Start!
-We are done. We create 4 names! ??? Why 4? >>
-```
+  17. Запустив програму в Visual Studio:
+![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/22.png)
 
+![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/WxnN.png)
 
-    3. Ознайомився з кодом, розібрався, за що відповідає кожен з рядків.
-    4. Модифікував програму, додавши своє ім’я в список:
+![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/wKVb.png)
 
-
-
-   5. Відповіді на запитання:
-      
-   A. Чому, коли передаємо значення None, створюється об`єкт з іменем Anonymous?
-   Коли передаємо значення None, створюється об`єкт з іменем Anonymous вiдповідно до коду:
-   self.name = name if name is not None else self.anonymous_user().name #Class attributes / Instance variables
-
-   B. Як змінити текст привітання при виклику методу say_hello()? Допишіть цю частину коду.
+ 18. Змінив інтерпретатор Python із середовища та виконав скрипт через кнопку Run:
+![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/23.png)   
    
-   ```python
-This is static {type(MyName.say_hello)} with my prompt: {me.say_hello("Привіт!")}
+  19. Створив файл .env та виконав код: 
+  ```text
+import os
+os.environ['HELLO']
 ```
+![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/24.png)   
 
-   C. Допишіть функцію в класі, яка порахує кількість букв в імені.
-   
-   ```python
-    def name_length(self):
-        return len(self.name)
-
-The number of letters in the name: {me.name_length()}
-```
-    Програма вивела:
-```text
-<< Let's Start!
-
-We are done. We create 5 names! ??? Why 5? >>
-```
-
- 
-   D. Порахуйте кількість імен у списку names та порівняйте із виведеним результатом. Дайте відповідь, чому маємо різну кількість імен?
-   У виведеному результаті кількість імен більша, тому що у списку присутній user None. 
-   У конструкторі класу, якщо name is None, метод anonymous_user() створює ще один об’єкт.
-   
-### Висновок: 
+  20. Якщо виконати скрипт без активації віртуального середовища, то видасть помилку:
+![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/25.png)   
+       
+   ### Висновок: 
 > У цій роботі я навчився встановлювати сторонні бібліотеки, працювати у віртуальному середовищі: працювати з Pipenv, параметризувати середовища за допомогою змінних середовища. 
