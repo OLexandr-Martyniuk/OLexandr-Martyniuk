@@ -87,24 +87,52 @@ pipenv install requests
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/14.png)    
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/14a.png)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+     9. Створив пайтон файл і записав у нього програму:
 ```python
- ??? Why {MyName.total_names}?")
+import requests
 
+response = requests.get('https://httpbin.org/')
+for line in response.iter_lines():
+    print(line)
 ```
+   10. Запустити програму з Visual Studio: 
+![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/15.png)
+   
+   11.  Запустив програму, зайшовши у віртуальне середовище за допомогою команди pipenv shell. 
+![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/16.png) 
+  
+   12. Вибрав бібліотеку graphic-verification-code 1.1.1 на Pypi:
+ ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/18.png)
+     
+   14. Інсталював її:
+![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/19.png)
+   
+   15. Знайшов документацію цієї бібліотеки:
+![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/20.png)
+
+   16. Записав програму, яка генерує графічний код верифікації в однойменний png-файл:
+```python
+import gvcode
+import base64  
+
+gvcode.generate()
+
+v = gvcode.base64()
+print(v[1])
+b = base64.b64decode( v[0] )
+
+f = open(v[1] + '.png', 'wb')
+f.write(b)
+f.close()
+```
+   Програма вивела:
+![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/21.png)
+![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/KEky.png)
+
+![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/23.png)
+![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/21.png)
+![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/21.png)
+   
    Програма вивела:
 ```text
 << Let's Start!
