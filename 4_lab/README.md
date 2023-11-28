@@ -83,7 +83,7 @@ pipenv install requests
      - файл Pipfile:
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/13.png)     
 
-     - файл Pipfile:
+     - файл Pipfile.lock:
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/14.png)    
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/14a.png)
 
