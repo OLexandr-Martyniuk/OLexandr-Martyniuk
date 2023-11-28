@@ -85,6 +85,7 @@ pipenv install requests
 
      - файл Pipfile:
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/14.png)    
+![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/14a.png)
 
 
 
