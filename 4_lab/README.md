@@ -40,7 +40,7 @@ deactivate
 pip show requests
 ```
     Остання команда вивела:
-   ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/5.png)
+![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/5.png)
 
     5. Для інсталяції Pipenv (інструмента для спрощення інсталяції сторонніх бібліотек та створення віруального середовища для кожного проєкту) 
     застосував команду:
@@ -54,28 +54,45 @@ pip install pipenv
 pipenv –help
 ```
      За допомогою pipenv можна виконати такі команди:
-[Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/7.png)
+![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/7.png)
     
      7. Для створення нового середовища та інсталяції бібліотек виконав такі команди:
 ```text
 pipenv --python 3.10
 ```
-[Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/8.png)
+![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/8.png)
 
 ```text
 pipenv –venv
 ```
-[Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/9.png)
+![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/9.png)
 
 ```text
 pipenv run python –V
 ```
-[Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/10.png)
+![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/10.png)
 
 ```text
-pipenv run python –V
+pipenv install requests
 ```
-[Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/11.png)
+![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/11.png)
+
+     8. Переконався, що створились файли Pipfile та Pipfile.lock:
+![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/12.png)
+   
+     - файл Pipfile:
+![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/13.png)     
+
+     - файл Pipfile:
+![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/14.png)    
+
+
+
+
+
+
+
+
 
 
 
