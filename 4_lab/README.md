@@ -29,6 +29,7 @@ pip show requests
 pip uninstall requests
 ```
     Результат виконання команд:
+    
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/3.png)
 
     4. Для створення VENV та його активації виконав команди:
@@ -49,7 +50,7 @@ pip install pipenv
 ```
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/6.png)
 
-     6. Після успішного виконання команди виконав
+     6. Після успішного виконання команди виконав:
 ```text
 pipenv –help
 ```
@@ -95,22 +96,27 @@ response = requests.get('https://httpbin.org/')
 for line in response.iter_lines():
     print(line)
 ```
-   10. Запустити програму з Visual Studio: 
+   10. Запустити програму з Visual Studio:
+        
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/15.png)
    
-   11.  Запустив програму, зайшовши у віртуальне середовище за допомогою команди pipenv shell. 
+   12.  Запустив програму, зайшовши у віртуальне середовище за допомогою команди pipenv shell.
+        
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/16.png) 
   
-   12. Вибрав бібліотеку graphic-verification-code 1.1.1 на Pypi:
+   14. Вибрав бібліотеку graphic-verification-code 1.1.1 на Pypi:
+       
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/18.png)
      
-   14. Інсталював її:
+   16. Інсталював її:
+       
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/19.png)
    
-   15. Знайшов документацію цієї бібліотеки:
+   18. Знайшов документацію цієї бібліотеки:
+       
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/20.png)
 
-   16. Записав програму, яка генерує графічний код верифікації в однойменний png-файл:
+   20. Записав програму, яка генерує графічний код верифікації в однойменний png-файл:
 ```python
 import gvcode
 import base64  
@@ -126,7 +132,9 @@ f.write(b)
 f.close()
 ```
    Програма вивела:
+   
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/21.png)
+
 
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/KEky.png)
 
@@ -137,16 +145,20 @@ f.close()
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/Cm9G.png)
 
   17. Запустив програму в Visual Studio:
+      
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/22.png)
 
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/WxnN.png)
 
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/wKVb.png)
 
- 18. Змінив інтерпретатор Python із середовища та виконав скрипт через кнопку Run:
+ 18. Змінив інтерпретатор Python із середовища та виконав скрипт через кнопку Run.
+     Виникла помилка виконання, оскільки стороння бібліотека gvcode була інстальована
+     у віртуальному середовищі, а не глобально:
+     
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/23.png)   
    
-  19. Створив файл .env та виконав код: 
+  20. Створив файл .env та виконав код: 
   ```text
 import os
 os.environ['HELLO']
@@ -154,6 +166,7 @@ os.environ['HELLO']
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/24.png)   
 
   20. Якщо виконати скрипт без активації віртуального середовища, то видасть помилку:
+      
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/25.png)   
        
    ### Висновок: 
