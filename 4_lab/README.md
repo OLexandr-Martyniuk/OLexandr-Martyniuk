@@ -100,7 +100,7 @@ for line in response.iter_lines():
         
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/15.png)
    
-    11.  Запустив програму, зайшовши у віртуальне середовище за допомогою команди pipenv shell.
+    11.  Запустив програму, зайшовши у віртуальне середовище за допомогою команди pipenv shell:
         
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/16.png) 
   
