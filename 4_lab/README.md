@@ -153,8 +153,8 @@ f.close()
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/wKVb.png)
 
   17. Змінив інтерпретатор Python із середовища та виконав скрипт через кнопку Run.
-     Виникла помилка виконання, оскільки стороння бібліотека gvcode була інстальована
-     у віртуальному середовищі, а не глобально:
+     Виникла помилка виконання, оскільки стороння бібліотека gvcode
+     була інстальована у віртуальному середовищі, а не глобально:
      
 ![Image alt](https://github.com/OLexandr-Martyniuk/OLexandr-Martyniuk/raw/main/4_lab/screenshots/23.png)   
    
